@@ -1,0 +1,45 @@
+/* Colours */
+.dark {
+    color: rgb(101, 40, 247);
+}
+
+.light {
+    color: rgb(237, 228, 255);
+}
+
+.bg-dark {
+    background-color: rgb(101, 40, 247) !important;
+}
+
+.bg-light {
+    background-color: rgb(237, 228, 255);
+}
+
+.bg-light2 {
+    background-color: rgb(215, 187, 245);
+}
+
+/* Hero Section */
+.hero {
+    background-image: url("https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+
+    display: flex;
+    align-items:center
+}
+
+.hero-header {
+    
+    padding: 40px;
+    border-radius: 25px;
+    background-color: rgba(101, 40, 247, 0.6);
+    margin-bottom: 10px;
+}
+
+/* About Section */
+.about-img {
+    width: 100%;
+    border-radius: 25;
+}
